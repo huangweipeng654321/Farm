@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2868570889814386419}
   - component: {fileID: 4427337292945250766}
   - component: {fileID: -7712078844870476006}
+  - component: {fileID: 6840076591323531593}
   m_Layer: 7
   m_Name: Egg
   m_TagString: Untagged
@@ -163,7 +164,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"\u9e21\u86cb\u81ea\u6bc1\u65f6\u95f4","value":{"$content":60,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &-7712078844870476006
 MonoBehaviour:
@@ -178,5 +180,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":7.199957,"y":-47.20001},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-289.0,"y":-57.0},"guid":"d4f9200c-7aba-4558-a639-7fb7847a5f2c","$version":"A","$type":"Unity.VisualScripting.OnMouseDown","$id":"10"},{"argumentCount":1,"defaultValues":{"name":{"$content":"MouseClickEgg","$type":"System.String"},"target":null},"position":{"x":-47.0,"y":-75.0},"guid":"42cb63bc-85d7-4e28-a1b8-3304a16b4699","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"12"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"GameManager","$type":"System.String"}},"position":{"x":-45.0,"y":95.0},"guid":"c1bdeac3-65ed-4218-8d70-2607fa0a4d0a","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"defaultValues":{},"position":{"x":-44.0,"y":191.0},"guid":"f8e40872-e2e8-4e21-8db5-f429501898b3","$version":"A","$type":"Unity.VisualScripting.This","$id":"16"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"8fd49ecf-5c76-40b7-8aed-d8a2dc5cee92","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"7b42c72e-bbe2-4675-953e-369d158bf7ad","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"self","destinationUnit":{"$ref":"12"},"destinationKey":"argument_0","guid":"3f9fe476-98fe-4c2b-a082-529a351b55e2","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
-    _objectReferences: []
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 0306efd5c45ce6a4893a829894953408, type: 2}
+--- !u!114 &6840076591323531593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2561202575149522535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 5e8ffdbde259e944db23901d4e77f1cf, type: 2}

@@ -1714,63 +1714,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375086008}
   m_CullTransparentMesh: 1
---- !u!1001 &386040464
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2814553245384235765, guid: f499103e6abc429498146dea1f65a2c8, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.3260548
-      objectReference: {fileID: 0}
-    - target: {fileID: 2814553245384235765, guid: f499103e6abc429498146dea1f65a2c8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.22953954
-      objectReference: {fileID: 0}
-    - target: {fileID: 2814553245384235765, guid: f499103e6abc429498146dea1f65a2c8, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2814553245384235765, guid: f499103e6abc429498146dea1f65a2c8, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2814553245384235765, guid: f499103e6abc429498146dea1f65a2c8, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2814553245384235765, guid: f499103e6abc429498146dea1f65a2c8, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2814553245384235765, guid: f499103e6abc429498146dea1f65a2c8, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2814553245384235765, guid: f499103e6abc429498146dea1f65a2c8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2814553245384235765, guid: f499103e6abc429498146dea1f65a2c8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2814553245384235765, guid: f499103e6abc429498146dea1f65a2c8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8650186510707374905, guid: f499103e6abc429498146dea1f65a2c8, type: 3}
-      propertyPath: m_Name
-      value: Chick
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f499103e6abc429498146dea1f65a2c8, type: 3}
 --- !u!1 &404182949
 GameObject:
   m_ObjectHideFlags: 0
@@ -7148,11 +7091,13 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"Eggs","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MainUI","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Animals","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CoinIcon","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 211449862}
     - {fileID: 452504120}
     - {fileID: 102276010}
+    - {fileID: 1629528079}
 --- !u!4 &1879781862
 Transform:
   m_ObjectHideFlags: 0
@@ -7897,4 +7842,3 @@ SceneRoots:
   - {fileID: 452504124}
   - {fileID: 102276011}
   - {fileID: 211449863}
-  - {fileID: 386040464}
