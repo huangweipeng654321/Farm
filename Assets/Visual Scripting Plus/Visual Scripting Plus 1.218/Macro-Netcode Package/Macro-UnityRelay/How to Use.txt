@@ -1,0 +1,15 @@
+To use Relay : you need to install both plugin Netcode & Relay
+
+1.*** Must install plugin "Netcode for Gameobjects" : 1.6.0 to work with : (newer versions might work too)
+- Install from package name : 
+line 1 (name) : com.unity.netcode.gameobjects
+line 2 (version) : 1.6.0
+
+2.*** Must install plugin "Multiplayer" : 1.1.8 to work with : (newer versions might work too)
+- Install from package name : 
+line 1 (name) : com.unity.services.multiplayer
+line 2 (version) : 1.1.8
+
+3. Unzip file  [Macro-Netcode][Macro-UnityRelay]
+
+4. Project Setting > Visual Scripting > Regenerate Nodes (must) > Then Use as other Macro.

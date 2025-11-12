@@ -1,0 +1,13 @@
+1.To use Macro-ChatVivox :
+*** Must install plugin "Vivox" : 16.3.0 to work with : (newer versions might work too)
+- Install from package name : 
+line 1 (name) : com.unity.services.vivox
+line 2 (version) : 16.3.0
+
+- Install plugin  "Authentication": (to sign in)
+line 1 (name) : com.unity.services.authentication
+line 2 (version) : 3.3.1
+
+2. Menu Edit > Project Settings > Services > Add existing/new unity project ID
+
+3. Unzip file [Macro-ChatVivox] > Restart (must) > Ready to use.

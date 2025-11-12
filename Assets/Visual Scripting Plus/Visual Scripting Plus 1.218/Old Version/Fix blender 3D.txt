@@ -1,0 +1,1 @@
+- If animation of Model keep returning bad position after exporting. Inside option Animation at export, turn off Force Start/End Keying
