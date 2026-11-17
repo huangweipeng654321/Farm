@@ -8,7 +8,7 @@ A taskbar-based pet and shop manager using Windows API transparency and click-th
 
 ## 🛠️ Tech Stack
 Engine: Unity
-Language: Unity visual scripting + C#
+Language: Unity Visual Scripting + C#
 
 ## 🚀 How to Run
 1. Clone the repository.
