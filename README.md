@@ -1,9 +1,9 @@
 # Desktop Field
 
-## Background
+## 📖 Background
 A desktop overlay farming simulator that adds idle play while multitasking.
 
-## Functionality
+## 🎮 Functionality
 A taskbar-based pet and shop manager using Windows API transparency and click-through.
 
 ## 🛠️ Tech Stack
